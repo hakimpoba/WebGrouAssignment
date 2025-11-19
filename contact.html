@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — SweetSecret Cakes</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html"><span class="logo-mark">🍰</span><span class="logo-text">SweetSecret Cakes</span></a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <button class="mobile-nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Contact Us</h1>
+    <p>If you'd like to order or enquire, fill in the form below and we'll get back to you within 24 hours.</p>
+
+    <form id="contactForm" class="contact-form" action="#" method="post" novalidate>
+      <label>
+        Contact Person
+        <input type="text" name="name" id="name" required placeholder="Your full name">
+      </label>
+
+      <label>
+        Email
+        <input type="email" name="email" id="email" required placeholder="name@example.com">
+      </label>
+
+      <label>
+        Phone
+        <input type="tel" name="phone" id="phone" placeholder="+60 12-3456789">
+      </label>
+
+      <label>
+        Message
+        <textarea name="message" id="message" rows="5" required placeholder="Tell us about the cake / event"></textarea>
+      </label>
+
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+
+    <section class="contact-info">
+      <h2>Visit or Call</h2>
+      <p>Address: 123 Baker Lane, YourTown</p>
+      <p>Phone: +60 12-345 6789</p>
+      <p>Email: info@sweetsecret.example</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year4"></span> SweetSecret Cakes</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
